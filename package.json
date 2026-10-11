@@ -5,9 +5,9 @@
 	"type": "module",
 	"description": "Celestial Launcher 插件开发文档",
 	"scripts": {
-		"dev": "vitepress dev",
+		"dev": "vitepress dev --port 5180",
 		"build": "vitepress build",
-		"preview": "vitepress preview"
+		"preview": "vitepress preview --port 5181"
 	},
 	"devDependencies": {
 		"mermaid": "^11.17.2",
