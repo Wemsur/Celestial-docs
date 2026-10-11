@@ -1,0 +1,86 @@
+/* 品牌色取自启动器 logo 的沙金色 #E5C981。
+ *
+ * 这个金色本身很浅，直接当作浅色模式下的正文链接会看不清，所以浅色模式用加深过的
+ * 金色当 brand-1（正文链接/强调），原始金色只留在 brand-3 和 brand-soft 上；深色
+ * 模式下原始金色就够亮，直接当 brand-1。 */
+
+:root {
+	--vp-c-brand-1: #8a6a1a;
+	--vp-c-brand-2: #a8842a;
+	--vp-c-brand-3: #e5c981;
+	--vp-c-brand-soft: rgba(229, 201, 129, 0.18);
+
+	--vp-c-tip-1: var(--vp-c-brand-1);
+	--vp-c-tip-2: var(--vp-c-brand-2);
+	--vp-c-tip-3: var(--vp-c-brand-3);
+	--vp-c-tip-soft: var(--vp-c-brand-soft);
+
+	--vp-button-brand-bg: #a8842a;
+	--vp-button-brand-hover-bg: #8a6a1a;
+	--vp-button-brand-active-bg: #6f5514;
+	--vp-button-brand-border: transparent;
+	--vp-button-brand-text: #ffffff;
+
+	--vp-home-hero-name-color: transparent;
+	--vp-home-hero-name-background: linear-gradient(120deg, #e5c981 30%, #c9a94f);
+	--vp-home-hero-image-background-image: linear-gradient(-45deg, #e5c981 50%, #c9a94f 50%);
+	--vp-home-hero-image-filter: blur(44px);
+}
+
+.dark {
+	--vp-c-brand-1: #e5c981;
+	--vp-c-brand-2: #edd9a5;
+	--vp-c-brand-3: #c9a94f;
+	--vp-c-brand-soft: rgba(229, 201, 129, 0.16);
+
+	--vp-c-tip-1: var(--vp-c-brand-1);
+	--vp-c-tip-2: var(--vp-c-brand-2);
+	--vp-c-tip-3: var(--vp-c-brand-3);
+	--vp-c-tip-soft: var(--vp-c-brand-soft);
+
+	--vp-button-brand-bg: #c9a94f;
+	--vp-button-brand-hover-bg: #e5c981;
+	--vp-button-brand-active-bg: #edd9a5;
+	--vp-button-brand-border: transparent;
+	--vp-button-brand-text: #1a1a1a;
+}
+
+/* 站点 logo 与启动器一致：圆角方形，不是圆形。 */
+.VPNavBarTitle .logo {
+	border-radius: 6px;
+}
+
+.VPImage.logo,
+.VPHomeHero .VPImage {
+	border-radius: 16px;
+}
+
+/* 首页特性卡片的图标用品牌色描边，和启动器的圆角方形图标语言一致。 */
+.VPFeature {
+	border-radius: 12px;
+}
+
+.VPFeature .icon {
+	border-radius: 8px;
+	background-color: var(--vp-c-brand-soft);
+}
+
+/* 文档里出现大量的报错文本，等宽字体给它一点底色更好辨认。 */
+:not(pre) > code {
+	font-size: 0.875em;
+}
+
+/* 表格里的代码不要撑破列宽。 */
+.vp-doc table td code {
+	white-space: nowrap;
+}
+
+/* 「自 v1 起」这类版本标记，用一个小徽章样式。 */
+.vp-badge {
+	white-space: nowrap;
+}
+
+/* 自定义容器在中文下的行高，默认偏紧。 */
+.vp-doc .custom-block p {
+	line-height: 1.75;
+}

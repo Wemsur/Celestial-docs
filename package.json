@@ -1,0 +1,22 @@
+{
+	"name": "celestial-docs",
+	"private": true,
+	"version": "0.1.0",
+	"type": "module",
+	"description": "Celestial Launcher 插件开发文档",
+	"scripts": {
+		"dev": "vitepress dev",
+		"build": "vitepress build",
+		"preview": "vitepress preview"
+	},
+	"devDependencies": {
+		"mermaid": "^11.17.2",
+		"vitepress": "^1.6.4"
+	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"esbuild"
+		]
+	},
+	"packageManager": "pnpm@10.33.2"
+}
