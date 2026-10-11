@@ -77,7 +77,7 @@ export default defineConfig({
 			{ text: '内容源', link: '/source/manifest', activeMatch: '^/source/' },
 			{ text: 'UI 插件', link: '/plugin/manifest-permissions', activeMatch: '^/plugin/' },
 			{ text: '参考', link: '/reference/source-api', activeMatch: '^/reference/' },
-			{ text: '配方', link: '/cookbook/', activeMatch: '^/cookbook/' },
+			{ text: '实例拆解', link: '/cookbook/', activeMatch: '^/cookbook/' },
 			{ text: 'FAQ', link: '/faq', activeMatch: '^/faq' },
 			{
 				text: '插件商店',
@@ -197,7 +197,7 @@ export default defineConfig({
 
 			'/cookbook/': [
 				{
-					text: '配方',
+					text: '实例拆解',
 					items: [
 						{ text: '总览', link: '/cookbook/' },
 						{ text: '最小内容源', link: '/cookbook/minimal-source' },

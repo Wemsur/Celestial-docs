@@ -249,4 +249,4 @@ cp -r . "$APPDATA/CelestialLauncher/content-sources/example"
 - [搜索与浏览](/source/search-browse) —— 排序、卡片字段、分页
 - [发布与上架](/guide/publishing) —— 让别人也能装上
 
-想照着真实插件学？[配方](/cookbook/)里有四个官方内容源的逐行拆解。
+想照着真实插件学？[实例拆解](/cookbook/)里有四个官方内容源的逐行拆解。

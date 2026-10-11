@@ -119,4 +119,4 @@ export async function activate(api: PluginHostApi): Promise<void> {
 
 ---
 
-参考手册见[PluginHostApi 全量](/reference/plugin-api)。接下来去[配方](/cookbook/)看真实插件。
+参考手册见[PluginHostApi 全量](/reference/plugin-api)。接下来去[实例拆解](/cookbook/)看真实插件。

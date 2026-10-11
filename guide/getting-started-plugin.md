@@ -218,4 +218,4 @@ manifest 的 `entry` 是**相对插件根**解析的，所以 `"entry": "dist/in
 - [订阅事件](/plugin/events) —— 对实例变化、安装进度做出反应
 - [发布与上架](/guide/publishing) —— 让别人也能装上
 
-想照着真实插件学？[配方](/cookbook/)里有「一言」（最小 UI 插件）和「陶瓦联机」（sidecar + LAN）的拆解。
+想照着真实插件学？[实例拆解](/cookbook/)里有「一言」（最小 UI 插件）和「陶瓦联机」（sidecar + LAN）的拆解。

@@ -39,7 +39,7 @@ features:
     title: 照着现有插件抄
     details: 官方已经写了六个插件，覆盖从「最小可用的地图站」到「带镜像和整合包的 CurseForge」。每个都逐行拆解。
     link: /cookbook/
-    linkText: 看配方
+    linkText: 看实例拆解
 ---
 
 ## 这份文档写给谁

@@ -208,4 +208,4 @@ export async function activate(api: ContentSourceApi) {
 
 ---
 
-接下来看参考手册，或者去[配方](/cookbook/)看真实插件。
+接下来看参考手册，或者去[实例拆解](/cookbook/)看真实插件。
