@@ -4,6 +4,7 @@
 	"version": "0.1.0",
 	"type": "module",
 	"description": "Celestial Launcher 插件开发文档",
+	"license": "MIT",
 	"scripts": {
 		"dev": "vitepress dev --port 5180",
 		"build": "vitepress build",
